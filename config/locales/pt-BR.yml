@@ -1,7 +1,8 @@
 pt-BR:
   activerecord:
-    model:
+    models:
       user: 'Usuário'
+      comment: 'Comentário'
 
     attributes:
       default: &default
@@ -13,6 +14,9 @@ pt-BR:
         description: 'Descrição'
         photo: 'Foto'
 
+      comment:
+        <<: *default
+        body: 'Comentário'
 
       user:
         <<: *default
@@ -20,3 +24,9 @@ pt-BR:
         email: 'Email'
         password: 'Senha'
         password_confirmation: 'Senha (confirmação)'
+
+  errors:
+    messages:
+      # Active Storage Validations
+      content_type_invalid: 'é um tipo de arquivo inválido'
+      file_size_out_of_range: 'tem %{file_size} mas o limite é 5 MB'

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class ApplicationController < ActionController::Base
   before_action :authenticate_user!
   before_action :configure_permitted_parameters, if: :devise_controller?
@@ -7,7 +9,7 @@ class ApplicationController < ActionController::Base
   private
 
   def layout_by_resource
-    "authentication" if devise_controller?
+    'authentication' if devise_controller?
   end
 
   def configure_permitted_parameters
