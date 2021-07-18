@@ -2,13 +2,18 @@
 
 # Posts Controller
 class PostsController < ApplicationController
+  include SuggestedUsers
+
   before_action :set_post, only: %i[show]
+  before_action :set_suggested_users, only: %i[index]
 
   def index
-    @posts = Post.all
+    @posts = Post.all.order(created_at: :desc)
   end
 
-  def show; end
+  # def show
+  #   @comment = Comment.new
+  # end
 
   def new
     @post = Post.new
@@ -20,17 +25,18 @@ class PostsController < ApplicationController
     if @post.save
       redirect_to @post, notice: 'Post foi criado com sucesso.'
     else
+      flash.now[:alert] = @post.errors.full_messages.to_sentence
       render :new
     end
   end
 
   private
 
-  def set_post
-    @post = Post.find(params[:id])
+  def post_params
+    params.require(:post).permit(:photo, :description)
   end
 
-  def post_params
-    params.require(:post).permit(:description)
+  def set_post
+    @post = Post.find(params[:id])
   end
 end

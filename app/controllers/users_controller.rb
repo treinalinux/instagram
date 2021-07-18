@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class UsersController < ApplicationController
   include SuggestedUsers
 
@@ -7,15 +9,14 @@ class UsersController < ApplicationController
     user = User.find_by(username: params[:username])
     @posts = user.posts
 
-    render "posts/index"
+    render 'posts/index'
   end
 
-  def edit
-  end
+  def edit; end
 
   def update
     if current_user.update(user_params)
-      redirect_to root_path, notice: "Seu perfil foi atualizado com sucesso."
+      redirect_to root_path, notice: 'Seu perfil foi atualizado com sucesso.'
     else
       flash.now[:alert] = current_user.errors.full_messages.to_sentence
       render :edit

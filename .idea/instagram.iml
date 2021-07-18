@@ -34,11 +34,13 @@
     <orderEntry type="library" scope="PROVIDED" name="actionpack (v6.1.4, asdf: 2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actiontext (v6.1.4, asdf: 2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionview (v6.1.4, asdf: 2.7.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="active_storage_validations (v0.9.5, asdf: 2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activejob (v6.1.4, asdf: 2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activemodel (v6.1.4, asdf: 2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activerecord (v6.1.4, asdf: 2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activestorage (v6.1.4, asdf: 2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v6.1.4, asdf: 2.7.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="addressable (v2.8.0, asdf: 2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bcrypt (v3.1.16, asdf: 2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bindex (v0.8.1, asdf: 2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bootsnap (v1.7.5, asdf: 2.7.2) [gem]" level="application" />
@@ -54,6 +56,8 @@
     <orderEntry type="library" scope="PROVIDED" name="globalid (v0.4.2, asdf: 2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v1.8.10, asdf: 2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.11.2, asdf: 2.7.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="launchy (v2.5.0, asdf: 2.7.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="letter_opener (v1.7.0, asdf: 2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="listen (v3.5.1, asdf: 2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="loofah (v2.10.0, asdf: 2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.7.1, asdf: 2.7.2) [gem]" level="application" />
@@ -66,6 +70,7 @@
     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.11.7, asdf: 2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="orm_adapter (v0.5.0, asdf: 2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="pg (v1.2.3, asdf: 2.7.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="public_suffix (v4.0.6, asdf: 2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="puma (v5.3.2, asdf: 2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="racc (v1.5.2, asdf: 2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v2.2.3, asdf: 2.7.2) [gem]" level="application" />

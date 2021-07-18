@@ -47,3 +47,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "devise", "~> 4.8"
 gem "devise-i18n", "~> 1.10"
+
+gem "letter_opener", "~> 1.7"
+
+gem "active_storage_validations", "~> 0.9.5"
