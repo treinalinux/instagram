@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Autenticação - Instagram</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
-    <%= stylesheet_pack_tag 'authentication' %>
-    <%= javascript_pack_tag 'authentication' %>
-  </head>
+  <title>Autenticação - Instagram</title>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
 
-  <body data-flash-messages="<%= JSON.dump(flash.to_a) %>">
-    <main>
-      <section class="hero">
-        <div class="logo">
-          <%= image_tag "instagram.png" %>
-        </div>
+  <%= stylesheet_pack_tag 'authentication' %>
+  <%= javascript_pack_tag 'authentication' %>
+</head>
 
-        <%= yield %>
-      </section>
-    </main>
-  </body>
+<body data-flash-messages="<%= JSON.dump(flash.to_a) %>">
+<main>
+  <section class="hero">
+    <div class="logo">
+      <%= image_tag "instagram.png" %>
+    </div>
+
+    <%= yield %>
+  </section>
+</main>
+</body>
 </html>
