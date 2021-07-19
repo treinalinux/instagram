@@ -9,7 +9,7 @@ class ApplicationController < ActionController::Base
   private
 
   def layout_by_resource
-    'authentication' if devise_controller?
+    "authentication" if devise_controller?
   end
 
   def configure_permitted_parameters
