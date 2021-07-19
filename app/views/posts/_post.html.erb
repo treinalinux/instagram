@@ -19,7 +19,7 @@
   <div class="details">
     <section class="actions">
       <nav>
-        <%#= render "likes/like", post: post %>
+        <%= render 'likes/like', post: post %>
 
         <div class="action">
           <%= link_to post do %>
@@ -44,8 +44,8 @@
     </section>
 
     <section class="created-at">
-      <%= time_ago_in_words(post.created_at) %> atrás
-<!--      Criado em 18/07/2020-->
+<!--      <%#= time_ago_in_words(post.created_at) %> atrás-->
+      Criado em 18/07/2020
     </section>
   </div>
 </article>

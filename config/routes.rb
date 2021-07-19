@@ -10,4 +10,5 @@ Rails.application.routes.draw do
   patch 'profile', to: 'users#update'
 
   resources :posts, only: %i[index show new create]
+  resources :likes, only: %i[create destroy]
 end
