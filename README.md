@@ -13,6 +13,11 @@ Several Ruby on Rails and JavaScript features were used.
 - Devise
 - i18n
 
+---
+
+🐞 **Pending avatar bug fix**
+
+---
 **Source:**
 
 [Lucas Caton](https://github.com/lucascaton)
